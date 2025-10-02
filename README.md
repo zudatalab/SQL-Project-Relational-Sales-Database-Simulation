@@ -8,6 +8,7 @@ SalesDB is a hands-on SQL project where I built a relational database from scrat
 This includes creating a normalized schema, populating realistic sample data, and writing SQL queries to extract meaningful business insights.
 The project was designed to strengthen my understanding of database design,relational modeling and query optimization 
 — essential skills for data-centric roles such as Data Analyst, BI Developer and Data Engineer.
+
 ---
 📦 Core Tables
 
@@ -15,7 +16,8 @@ The project was designed to strengthen my understanding of database design,relat
 ➤ Employees – Includes employee details with manager hierarchy (self-referencing FK)
 ➤ Products– Product catalog with category and price
 ➤ Orders – Live sales orders with foreign keys to customers, employees, and products
-➤ Orders_archive`** – Archived historical order data for analysis
+➤ Orders_archive – Archived historical order data for analysis
+
 ---
 🔍 Features & Highlights
 
@@ -24,6 +26,7 @@ The project was designed to strengthen my understanding of database design,relat
  ✅ Used JOINs, subqueries, **GROUP BY**, HAVING, UNION and aggregates
  ✅ Time-based analysis using `DATEDIFF()` and `BETWEEN`
  ✅ Compared live (`orders`) and archived (`orders_archive`) datasets
+ 
 ---
 
  📊 Sample Business Queries
@@ -37,6 +40,7 @@ The project was designed to strengthen my understanding of database design,relat
 ➤ Order IDs common to both active and archive tables
 ➤ Combined customer and employee directory (with/without duplicates)
 ➤ Total sales from live vs. archived data
+
 ---
  🎯 Skills Gained
 
@@ -45,9 +49,11 @@ The project was designed to strengthen my understanding of database design,relat
 ➤ Aggregations & business metric extraction
 ➤ Self-joins and foreign key constraints
 ➤ Data manipulation and reporting logic
+
 ---
 📌 Why This Project Matters
 
 This project is more than just practice — it reflects real-world scenarios faced in sales, CRM, and BI systems. 
 It showcases how raw data can be structured, related, and queried for insightful analysis — a critical skill in any data role.
+
 ---
